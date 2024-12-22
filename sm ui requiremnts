@@ -1,0 +1,93 @@
+UI Requirements for the Social Media Analytics Dashboard (YouTube Clone)
+Key Features and UI Elements
+User Authentication
+
+Sign-Up/Sign-In Page:
+Input fields for email, password, and social login options (Google, Facebook).
+A clean and simple form layout with clear call-to-action buttons like "Log In" and "Sign Up."
+Error handling for invalid credentials.
+Forgot Password Modal:
+Option for users to reset their password via email.
+Home/Dashboard Page
+
+Navigation Bar:
+Links for Home, Analytics, Notifications, Settings, and Logout.
+A search bar for filtering content or metrics.
+Profile icon dropdown for account options.
+Sidebar:
+Menu options for different social media platforms (YouTube, Twitter, Instagram).
+Filters for timeframes (Daily, Weekly, Monthly).
+Data Visualization
+
+Engagement Metrics Section:
+Interactive charts showing trends in likes, comments, views, and shares.
+Bar charts, line graphs, and pie charts for data representation.
+Top Performing Content:
+A card-based layout displaying thumbnails, titles, and metrics for top-performing posts/videos.
+Follower Growth:
+A graph showcasing follower trends over time.
+Numeric indicators for percentage growth or decline.
+Real-Time Notifications
+
+Notification Panel:
+A dropdown or sidebar listing recent notifications (e.g., new likes, comments).
+Timestamp for each notification.
+Interactive icons for marking notifications as read or deleting them.
+Real-Time Indicator:
+A small badge or animation indicating new notifications.
+Responsive Design
+
+Mobile View:
+Collapsible sidebar.
+Stacked layout for charts and metrics.
+Swipe gestures for navigation.
+Desktop View:
+Split-screen layout with a fixed sidebar and dynamic content area.
+Hover effects for interactive elements.
+Settings Page
+
+Account Settings:
+Options to update email, password, and linked social media accounts.
+Customization:
+Ability to choose which metrics to display on the dashboard.
+Dark mode toggle.
+PWA Features
+
+Offline Mode Notification:
+A banner indicating offline mode when the app loses internet connection.
+Install Button:
+Prominent button to install the app as a PWA on mobile or desktop.
+Additional Features
+
+Export Analytics:
+A button to download reports in PDF or CSV format.
+Customizable Dashboard:
+Drag-and-drop widgets for arranging charts and metrics.
+Help Section:
+FAQs and a contact form for user support.
+Target Audience
+Content Creators: YouTubers, influencers, and digital marketers who need to track their video performance and engagement.
+Small Businesses: Businesses managing their YouTube channels to track advertising performance.
+Social Media Managers: Professionals managing multiple social media accounts for brands.
+Tech Stack-Specific UI Elements
+GraphQL Integration:
+Loader animations while fetching data.
+Error messages for failed data retrieval.
+WebSocket Notifications:
+Toast pop-ups for real-time updates.
+Notification sound or vibration feedback.
+Chart.js or D3.js:
+Interactive tooltips on data points.
+Zoom and pan features for charts.
+User Flow
+Onboarding:
+Brief introduction screens for first-time users.
+Option to connect social media accounts via OAuth.
+Dashboard Interaction:
+Users land on the analytics dashboard with pre-configured widgets.
+Ability to navigate between platforms and customize the view.
+Real-Time Engagement:
+Notifications alert users about real-time events (e.g., new comments).
+Settings and Customization:
+Users can tweak their dashboard layout and preferences.
+This setup ensures a user-friendly experience while leveraging advanced technologies for a dynamic and responsive app. 
